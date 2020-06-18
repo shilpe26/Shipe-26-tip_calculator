@@ -1,0 +1,23 @@
+<html>
+    <head>
+    <title>Internal &amp; External JavaScript</title>
+        <!--Normalize.css-->
+        <link rel="stylesheet" type="text/css" href ="normalize.css">
+    </head>
+    <body>
+    <div id="container">
+        
+        <h1>Internal &amp; External Javascript</h1>
+        <p id="output"></p>
+        </div><!---#container-->
+        
+        <!--Javascript always loads last-->
+        
+    <!--Internal Javascript-->
+    <script type="text/javascript">
+        document.getElementById("output").innerHTML="This text is created with internal javascript";
+        </script>
+    <!--External JAvaScript-->    
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+    
