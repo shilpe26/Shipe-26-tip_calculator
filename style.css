@@ -16,6 +16,7 @@ color: #532827;
     -moz-border-radius:5px;
     border-radius: 5px;
     text-align: center;
+    
 }
 h1{
     margin: 0 0 20px;
@@ -39,6 +40,7 @@ form select{
 form input[type="text"]{
     width: 90px;
     
+    
 }
 button{
     background: #6c2726
@@ -49,21 +51,25 @@ button{
     font-size: 18px;
     padding: 20px 30px;
     width: 100%;
+    
 }
 button:hover{
     background: #4c2827;
     border-bottom-color: #111;
+    color: white;
+    
     
 }
 button:active{
     position: relative;
     top: 1px;
-    color: white;
+    
 }
-#totaTip{
+#totalTip{
     font-size: 50px;
     margin-top: 40px;
 }
+
 #totalTip:before{
     content: "Tip Amount";
     font-size: 14px;
