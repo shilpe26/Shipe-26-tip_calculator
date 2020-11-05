@@ -82,3 +82,9 @@ button:active{
     
     
 }
+@media (max-width: 500px){
+    #container{
+        width: 90%;
+        height: auto;
+    }
+}
