@@ -5,96 +5,86 @@ body{
 color: #532827;
 }
 
-#container {
+#container{
     width: 400px;
     margin: 40px auto 0;
     padding: 50px;
-    position: relative;
-    bottom: 5px;
     box-sizing: border-box;
     background: url('paperpat.jfif') top left repeat;
     box-shadow: 0 10px 15px -8px #000;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
     border-radius: 5px;
     text-align: center;
 }
-
-@media (max-width: 500px){
-    #container{
-        width: 90%;
-        height: auto;
-    }
-}
-
-h1 {
+h1{
     margin: 0 0 20px;
     padding: 0 0 20px;
     border-bottom: solid 1px #ddd;
 }
-
-form {
-    text-align: left;
+form{
+     text-align: left;
 }
-
-form label {
+form label{
     display: block;
     margin: 25px 0;
     font-weight: bold;
 }
-
 form input,
-form select {
+form select{
     padding: 8px;
     margin: 10px 0;
+    
 }
-
-form input[type="text"] {
+form input[type="text"]{
     width: 90px;
+    
 }
-
-button {
-    background: #6c2726;
-    color: white;
+button{
+    background: #6c2726
+        color:white;
     border: none;
-    border-bottom: solid 4px #222;
+    border-bottom:solid 4px #222;
     text-transform: uppercase;
     font-size: 18px;
     padding: 20px 30px;
     width: 100%;
 }
-
-button:hover {
+button:hover{
     background: #4c2827;
     border-bottom-color: #111;
+    
 }
-
-button:active {
+button:active{
     position: relative;
     top: 1px;
 }
-
-#totalTip {
+#totaTip{
     font-size: 50px;
     margin-top: 40px;
 }
-
-#totalTip:before {
-    content: "Tip amount";
+#totalTip:before{
+    content: "Tip Amount";
     font-size: 14px;
     font-weight: bold;
     display: block;
     text-transform: uppercase;
 }
-
-#totalTip sup {
+#totalTip sup{
     font-size: 24px;
-    top: -18px;
+        top:-18px;
+    
 }
-
-#totalTip small {
+#totalTip small{
     font-size: 14px;
     font-weight: bold;
     display: block;
+    
+    
 }
-
+@media (max-width: 500px){
+    #container{
+        width: 80%;
+        height: auto;
+    }
+}
